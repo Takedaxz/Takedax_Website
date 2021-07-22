@@ -51,8 +51,8 @@
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
-    top:0; 
-    left:0;
+    top: 0;
+    left: 0;
     scroll-behavior: smooth;
   }
 }
@@ -244,7 +244,7 @@ sup {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 a:hover {
@@ -11355,4 +11355,3 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-
