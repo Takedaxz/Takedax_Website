@@ -51,6 +51,8 @@
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
+    top:0; 
+    left:0;
     scroll-behavior: smooth;
   }
 }
@@ -11353,7 +11355,4 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-footer {
-  text-align: center;
-  padding: 45px 0 20px;
-}
+
