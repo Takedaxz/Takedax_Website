@@ -4291,8 +4291,6 @@ fieldset:disabled .btn {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
@@ -4306,7 +4304,7 @@ fieldset:disabled .btn {
 }
 .navbar-toggler:focus {
   text-decoration: none;
-  outline: 0;
+  outline-color: black;
   box-shadow: 0 0 0 0.25rem;
 }
 
@@ -4518,7 +4516,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark .navbar-brand {
-  color: white;
+  color: black;
 }
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
@@ -4540,10 +4538,10 @@ fieldset:disabled .btn {
 }
 .navbar-dark .navbar-toggler {
   color: rgb(180, 159, 104);
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(63, 63, 63, 0.1);
 }
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-dark .navbar-text {
   color: rgb(180, 159, 104);
@@ -11262,7 +11260,7 @@ p.lead {
   text-transform: uppercase;
 }
 #sideNav .navbar-toggler:focus {
-  outline-color: white;
+  outline-color: black;
 }
 
 @media (min-width: 992px) {
