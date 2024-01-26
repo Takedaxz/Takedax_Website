@@ -1,2 +1,3 @@
 # Takedax_Website
-YO
+Newbie learning HTML and CSS
+Please be kind to me.
