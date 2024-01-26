@@ -1,4 +1,3 @@
-/* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)*/
 
 window.addEventListener("DOMContentLoaded", (event) => {
   const sideNav = document.body.querySelector("#sideNav");
